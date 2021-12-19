@@ -1,0 +1,264 @@
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background: #f3f3f3;
+  }
+  .slider-container{
+      display: flex;
+  }
+  .slider{
+    width: 120%;
+    height: 411px;
+    overflow: hidden;
+  }
+  
+  .slides{
+    width: 500%;
+    height: 411px;
+    display: flex;
+  }
+  
+  .slides input{
+    display: none;
+  }
+  
+  .slide{
+    width: 20%;
+    transition: 2s;
+  }
+  
+  .slide img{
+    width: 100%;
+    height: 380px;
+  }
+  
+  /*css for manual slide navigation*/
+  
+  .navigation-manual{
+    position: absolute;
+    width: 100%;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .manual-btn{
+    border: 1px solid #fa5a98;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+  .manual-btn:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  .manual-btn:hover{
+    background: #fa5a98;
+  }
+  
+  #radio1:checked ~ .first{
+    margin-left: 0%;
+  }
+  
+  #radio2:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radio3:checked ~ .first{
+    margin-left: -40%;
+  }
+  
+  #radio4:checked ~ .first{
+    margin-left: -60%;
+  }
+
+  #radio5:checked ~ .first{
+    margin-left: -80%;
+  }
+  
+  /*css for automatic navigation*/
+  
+  .navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 390px;
+  }
+  
+  .navigation-auto div{
+    border: 1px solid #fa5a98;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  
+  .navigation-auto div:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  #radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #fa5a98;
+  }
+  
+  #radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #fa5a98;
+  }
+  
+  #radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #fa5a98;
+  }
+  
+  #radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #fa5a98;
+  }
+  
+  #radio5:checked ~ .navigation-auto .auto-btn5{
+    background: #fa5a98;
+  }
+
+
+  .static-banner{
+      display: flex;
+      width: 1140px;
+      height: 95px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      margin: auto;
+      margin-top: 25px;
+      transition: 0.5s;
+      border-radius: 5px;
+  }
+  .static-banner img{
+      border-radius: 5px;
+  }
+  .static-banner:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+  .static-banner2{
+    display: flex;
+    width: 1140px;
+    height: 300px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: auto;
+    margin-top: 46px;
+    margin-bottom: 30PX;
+    transition: 0.5s;
+    border-radius: 10px;
+  }
+  .static-banner2 img{
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+  }
+  .static-banner2:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  .sub-titles{
+      font-family: "Source Sans Pro", Roboto, Arial, sans-serif;
+      text-align: center;
+      font-size: 24px;
+      color: #3f414d;
+  }
+
+  .grid-banners{
+      display: grid;
+      width: 1140px;
+      margin: auto;
+      grid-template-columns: repeat(2,49%);
+      grid-gap: 20px;
+      margin-bottom: 66px;
+  }
+  .grid-img{
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.5s;
+    
+  }
+  .grid-img:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  .grid-img img{
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+  }
+  .gridF-banners{
+      text-align: center;
+      display: grid;
+      width: 1140px;
+      margin: auto;
+      grid-template-columns: repeat(4,23%);
+      grid-gap: 25px;
+  }
+  .gridF-img{
+      height: 350px;
+      background-color: white;
+      transition: 0.5s;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      border-radius: 5px;
+  }
+  .gridF-img:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  .gridF-img img{
+      width: 100%;
+      height: 80%;
+      border-radius: 5px;
+  }
+  .tPink{
+      color: #fa5a98;
+      font-size: 16px;
+      line-height:19.2px;
+      font-family: "Source Sans Pro", Roboto, Arial, sans-serif;
+  }
+  .tBlack{
+      color: #3f414d;
+      font-size: 15px;
+      font-family: "Source Sans Pro", Roboto, Arial, sans-serif;
+  }
+  .gridB-img{
+      height:350px;
+      background-image: url("https://images-static.nykaa.com/uploads/e66b2bb5-c749-4e3e-b548-6111377fc6ad.jpg?tr=w-600,cm-pad_resize");
+      background-size: 560px 400px;
+      border-radius:10px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      transition: 0.5s;
+    }
+  .gridB-img2{
+    height:350px;
+    background-image: url("https://images-static.nykaa.com/uploads/c4cd0fa0-58f8-4672-a648-6ec7063e78e4.gif?tr=w-600,cm-pad_resize");
+    background-size: 560px 400px;
+    border-radius:10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition:0.5s;
+    }
+    .gridB-img:hover{
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+    .gridB-img2:hover{
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+  .gridB-text{
+      margin: auto;
+      margin-top:255px;
+      height:12vh;
+      vertical-align: bottom;
+      background-color: white;
+      border-radius:10px;
+      text-align: center;
+      width:85%;
+  }
+  .gridB-pink{
+      font-family: "Source Sans Pro", Roboto, Arial, sans-serif;
+      font-size:18px;
+      color: #fc2779;
+  }
+  .gridB-black{
+      color: #3f414d;
+      font-size: 16px;
+      font-family: "Source Sans Pro", Roboto, Arial, sans-serif;
+  }

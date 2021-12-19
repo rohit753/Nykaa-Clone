@@ -1,0 +1,153 @@
+#footer {
+  width: 100%;
+  height: 864px;
+}
+#footer > div {
+  padding: 20px;
+}
+.blackF {
+  margin-top: 20px;
+  width: 100%;
+  height: 18%;
+  background-color: #3f414d;
+}
+.sub-blackF {
+  height: 68px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 35px;
+  display: flex;
+}
+.sub-blackF > div {
+  margin: auto;
+  
+  height: 100%;
+  width: 33%;
+}
+#botME {
+  font-family: "Source Sans Pro", Roboto, Arial, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+#email {
+  margin-top: 20px;
+  width: 60%;
+  height: 30px;
+  color: #ffffff;
+}
+::placeholder {
+  color: #ffffff;
+}
+.send {
+  margin-left: 5%;
+  margin-top: 5px;
+  background-color: #3f414d;
+  height: 37px;
+  width: 65px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+.img2 {
+  filter: invert(100%);
+}
+.sub-blackF-middle > div {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  font-family: "Source Sans Pro", Roboto, Arial, sans-serif;
+  font-size: 14px;
+}
+.sub-blackF-middle > div:hover {
+  cursor: pointer;
+}
+.imgDiv {
+  height: 37px;
+  width: 40px;
+}
+.imgDiv > img {
+  width: 100%;
+  height: 100%;
+  filter: invert(100%);
+}
+.sub-blackF-right > div {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  font-family: "Source Sans Pro", Roboto, Arial, sans-serif;
+  font-size: 14px;
+}
+.grayF {
+  background-color: #8c8d94;
+  height: 50%;
+  display: flex;
+}
+.grayF > div {
+  display: inline-block;
+}
+
+.css-10rz8mq {
+  background-color: #8c8d94;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: right;
+}
+.css-13qjmwc {
+  max-width: 1200px;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.css-13qjmwc svg {
+  height: 37px;
+  width: 72px;
+}
+
+.css-13qjmwc path {
+  fill: #fff;
+}
+.css-iwvb0y {
+  width: 20%;
+}
+
+.css-iwvb0y header {
+  font-size: 16px;
+  text-align: left;
+}
+
+.css-66iazq {
+  list-style: none;
+  
+}
+
+.css-9ms3pa {
+  font-size: 14px;
+  margin-bottom: 11px;
+}
+
+.css-9ms3pa.double {
+  display: inline-block;
+  width: 50%;
+}
+
+.css-184rvtn {
+  color: inherit;
+  display: inline-block;
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.css-184rvtn:hover {
+  color: #fc2779;
+}
