@@ -20,7 +20,7 @@ const register = async (req, res) => {
     // we will create the token for the user
 
     // return the token and the user details
-    return res.status(201).send({ user});
+    return res.status(201).send({ user });
   } catch (err) {
     return res.status(500).send({ message: err.message });
   }
@@ -58,4 +58,4 @@ const login = async (req, res) => {
   }
 };
 
-module.exports = { register, login};
+module.exports = { register, login };

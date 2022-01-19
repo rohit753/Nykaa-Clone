@@ -15,12 +15,15 @@ passport.use(
       passReqToCallback: true,
     },
     async function (request, accessToken, refreshToken, profile, done) {
+      console.log(profile);
       let user = await User.findOne({ email: profile?._json?.email })
         .lean()
         .exec();
 
       if (!user) {
         user = await User.create({
+          name: profile?.displayName,
+          profile_img: profile?._json?.picture,
           email: profile?._json?.email,
           password: uuidv4(),
           roles: ["seller"],
