@@ -28,7 +28,8 @@ app.get(
 app.get(
     "/auth/google/callback",
     passport.authenticate("google", {
-      failureRedirect: "/auth/google/failure",
+        successRedirect: 'https://rohit753.github.io/Naykaa-Clone/',   
+        failureRedirect: "/auth/google/failure",
     }),
     (req, res) => {
       return res.status(201).json({ user: req.user.user});
