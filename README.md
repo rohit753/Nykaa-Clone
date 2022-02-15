@@ -1,7 +1,10 @@
 # Naykaa-Clone
 
 <img src="https://ibb.co/pzFyZCL"></img>
-
+<img src="https://ibb.co/pzFyZCL"></img>
+<img src="https://ibb.co/pzFyZCL"></img>
+<img src="https://ibb.co/pzFyZCL"></img>
+<img src="https://ibb.co/pzFyZCL"></img>
 
 Nykaa is a family of brands and businesses, making it possible for customers around the world to express themselves through Beuty products, and to choose a more sustainable lifestyle.
 
