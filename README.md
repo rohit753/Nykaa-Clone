@@ -1,10 +1,38 @@
 # [Nayka-Clone](https://rohit753.github.io/Naykaa-Clone/)
 
-<img src="https://i.ibb.co/V320Ks9/Screenshot-309.png"></img>
-<img src="https://ibb.co/pzFyZCL"></img>
-<img src="https://ibb.co/pzFyZCL"></img>
-<img src="https://ibb.co/pzFyZCL"></img>
-<img src="https://ibb.co/pzFyZCL"></img>
+Home page 
+<br/>
+<img src="https://miro.medium.com/max/1400/0*fvNdTeNzpw2cVrLX"></img>
+ <br/>
+Signup
+ <br/>
+<img src="https://miro.medium.com/max/732/0*GXO9DU8wOvdtKYkE"></img>
+ <br/>
+Product page
+ <br/>
+<img src="https://miro.medium.com/max/1400/0*EzNiHirPpkY7nrf7"></img>
+ <br/>
+ Cart
+  <br/>
+
+<img src="https://miro.medium.com/max/1400/0*_H0noWlFzy98tmAk"></img>
+ <br/>
+ Product details page
+  <br/>
+<img src="https://miro.medium.com/max/1400/0*mJcdeL7WGE-h5YwW"></img>
+ <br/>
+ Shipping details page
+  <br/>
+<img src="https://miro.medium.com/max/1400/0*W3zS2o4iV3RV-d52"></img>
+ <br/>
+ Payment Page
+  <br/>
+<!-- <img src=""></img> -->
+<img src="https://miro.medium.com/max/1400/0*ulQW69EgLdGLKevt"></img>
+ <br/>
+  <br/>
+   <br/>
+   
 
 Nykaa is a family of brands and businesses, making it possible for customers around the world to express themselves through Beuty products, and to choose a more sustainable lifestyle.
 
