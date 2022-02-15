@@ -1,6 +1,6 @@
 # Naykaa-Clone
 
-<img src="https://ibb.co/pzFyZCL"></img>
+<img src="https://i.ibb.co/V320Ks9/Screenshot-309.png"></img>
 <img src="https://ibb.co/pzFyZCL"></img>
 <img src="https://ibb.co/pzFyZCL"></img>
 <img src="https://ibb.co/pzFyZCL"></img>
