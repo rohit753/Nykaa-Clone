@@ -1,4 +1,4 @@
-# [Nayka-Clone](https://rohit753.github.io/Naykaa-Clone/)
+# [Nykaa-Clone](https://rohit753.github.io/Naykaa-Clone/)
 
 Home page 
 <br/>
