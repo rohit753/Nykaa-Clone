@@ -47,7 +47,7 @@ Nykaa is a family of brands and businesses, making it possible for customers aro
 Go to this link:-
 
 ```
-https://rohit753.github.io/Naykaa-Clone/
+https://rohit753.github.io/Nykaa-Clone/
 ```
 
 # Technologies Used for FRONTEND
